@@ -34,4 +34,6 @@ jobs:
           docker push iesodias/nodejs:1.0.0
       
       - name: docker logoff
+        run: |
+          docker logoff
       
