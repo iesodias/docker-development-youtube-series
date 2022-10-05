@@ -33,7 +33,7 @@ jobs:
           docker push iesodias/csharp:1.0.0
           docker push iesodias/nodejs:1.0.0
       
-      - name: docker logoff
+      - name: docker logout
         run: |
-          docker logoff
+          docker logout
       
